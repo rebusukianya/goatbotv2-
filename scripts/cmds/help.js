@@ -100,7 +100,7 @@ module.exports = {
 𝙰𝚟𝚊𝚒𝚕𝚊𝚋𝚕𝚎 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜:
 ╭─╼━━━━━━━━╾─╮
 │ 📚 | Education 
-│ - Ai ✓
+│ - Ai 
 │ - Chesca
 │ - Google 
 │ - Googleit
@@ -109,7 +109,7 @@ module.exports = {
 │ - Neuron 
 │ - Professor Ai 
 │ - Quote 
-│ - Translate ✓
+│ - Translate 
 │ - Calculate 
 │ - Meta3
 │ - Catgpt
@@ -122,8 +122,8 @@ module.exports = {
 
 ╭─╼━━━━━━━━╾─╮
 │  🛠️ | Tools
-│ - Acp✓
-│ - Alldl ✓
+│ - Acp
+│ - Alldl 
 │ - Autosetname
 │ - Convert
 │ - Fbacc
@@ -135,7 +135,7 @@ module.exports = {
 │ - Movie
 │ - Pair
 │ - Resend
-│ - Tempmail ✓
+│ - Tempmail 
 │ - Ban
 │ - Banlist
 │ - Block
@@ -148,7 +148,7 @@ module.exports = {
 
 ╭─╼━━━━━━━━╾─╮
 │ 🎮 | Games 
-│ - TruthorDare✓
+│ - TruthorDare
 │ - Memorytest
 │ - Quiz
 │ - Slot
@@ -158,12 +158,12 @@ module.exports = {
 
 ╭─╼━━━━━━━━╾─╮
 │ 📸 | Images 
-│ - Animagine✓
+│ - Animagine
 │ - Cdp
-│ - Dalle✓
-│ - Remini✓
+│ - Dalle
+│ - Remini
 │ - Image
-│ - Pinterest ✓
+│ - Pinterest 
 │ - Imgsearch
 │ - Coupledp
 │ - Cover
@@ -187,7 +187,7 @@ module.exports = {
 │ - Restart
 │ - Rules
 │ - Update
-│ - Uptime✓
+│ - Uptime
 │ - File
 │ - Sendnoti2
 │ - Callad
@@ -199,7 +199,7 @@ module.exports = {
 
 ╭─╼━━━━━━━━╾─╮
 │ 🎧 | Music
-│ - Lyrics ✓
+│ - Lyrics 
 │ - Shoti
 │ - Spotify
 │ - Youtube
@@ -225,7 +225,7 @@ module.exports = {
 │ - Fbstalk
 │ - Goatmart
 │ - Hello
-│ - Help ✓
+│ - Help 
 │ - Instastalk
 │ - Leave
 │ - Married 
@@ -255,8 +255,8 @@ module.exports = {
 │ - Work
 │ - Edit
 │ - Besh
-│ - Prefix ✓
-│ - Unsend ✓
+│ - Prefix 
+│ - Unsend 
 ╰─━━━━━━━━━╾─╯
 -𝚑𝚎𝚕𝚙 <𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚗𝚊𝚖𝚎>
 𝚃𝚘 𝚜𝚎𝚎 𝚑𝚘𝚠 𝚝𝚘 𝚞𝚜𝚎
