@@ -1,46 +1,43 @@
-const axios = require('axios');
-const jimp = require('jimp');
-const fs = require('fs');
+const fs = require("fs");
+const Deku = require("dekuai");
+const deku = new Deku()
 
 module.exports = {
   config: {
-    name: 'fbcover',
-    version: '1.0',
-    author: 'munem.',
-    countDown: 5,
+    name: "fbcover",
+    version: "1.0",
+    author: "deku",
+    countDown: 1,
     role: 0,
-    shortDescription: 'Create Facebook banner',
-    longDescription: '',
-    category: 'image',
+    shortDescription: "Create fb cover",
+    longDescription: "",
+    category: "image",
     guide: {
-      en: '{p}{n} <name> | <subname> | <address> | <phone> | <email> | <color>',
+      en: "{p}{n} name | last | phone | country | email | color",
     }
   },
 
-  onStart: async function ({ message, args, event, api }) {
-    const info = args.join(' ');
-    if (!info){
-      return message.reply(`Please enter in the format:\n/fbcover name | subname | address | phone | email | color`);
-    } else {
-      const msg = info.split('|');
-      const name = msg[0];
-      const subname = msg[1];
-      const address = msg[2];
-      const phone = msg[3];
-      const email = msg[4];
-      const color = msg[5] ? msg[5].trim() : '';
-
-      await message.reply('Processing your cover, senpai....❤️');
-
-      const img = `https://www.nguyenmanh.name.vn/api/fbcover1?name=${name}&uid=${event.senderID}&address=${address}&email=${email}&subname=${subname}&sdt=${phone}&color=${color}&apikey=sr7dxQss`;
-
-      const form = {
-        body: '「 Your cover senpai😻❤️ 」',
-        attachment: []
-      };
-
-      form.attachment[0] = await global.utils.getStreamFromURL(img);
-      message.reply(form);
+  onStart: async function ({ message, args, event, api }){
+    try {
+      const path = __dirname + "/cache/fbcover.png";
+      let t = args.join(" ");
+      if (!t) {
+        return message.reply("Wrong format\nPlease use " + this.guide.en);
+      }
+      const z = t.split(" | ")
+      const name = z[0],
+        last = z[1],
+        phone = z[2],
+        country = z[3],
+        email = z[4],
+        uid = event.senderID,
+        color = z[5] || "white";
+      if (!name || !last || !phone || !country || !email) return message.reply('Wrong format\nPlease use ' + this.guide.en);
+      const image = await deku.fbcover(name, last, phone, country, email, uid, color)
+    fs.writeFileSync(path, image);
+      api.sendMessage({body: •——[ FB COVER ]——•\n\n👤Name: ${name}\n👤Last name: ${last}\n📞Phone number: ${phone}\n🌐Country: ${country}\n📧Email: ${email}\n🎨Color: ${color}\n\n•——[ FB COVER ]——•, attachment: fs.createReadStream(path)}, event.threadID, event.messageID);
+    } catch (e) {
+      return message.reply(e.message);
     }
   }
 };
