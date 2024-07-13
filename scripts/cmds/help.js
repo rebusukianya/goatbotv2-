@@ -127,7 +127,6 @@ module.exports = {
 │ - Autosetname
 │ - Convert
 │ - Fbacc
-│ - Fbcover
 │ - Fbshare
 │ - Filteruser
 │ - Imgur
@@ -170,6 +169,8 @@ module.exports = {
 │ - Cry
 │ - Randomedit
 │ - Sdxl
+│ - Fbcover
+│ - Avatar
 ╰─━━━━━━━━━╾─╯
 
 ╭─╼━━━━━━━━╾─╮
