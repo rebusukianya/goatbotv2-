@@ -118,6 +118,7 @@ module.exports = {
 │ - Hercai
 │ - Weather
 │ - News
+│ - Gpt
 ╰─━━━━━━━━━╾─╯
 
 ╭─╼━━━━━━━━╾─╮
