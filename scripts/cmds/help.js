@@ -144,6 +144,7 @@ module.exports = {
 │ - Grouptag
 │ - Pair
 │ - Owner
+│ - Clean
 ╰─━━━━━━━━━╾─╯
 
 ╭─╼━━━━━━━━╾─╮
@@ -154,6 +155,7 @@ module.exports = {
 │ - Slot
 │ - Coinflip
 │ - Codm
+│ - Candycrush
 ╰─━━━━━━━━━╾─╯
 
 ╭─╼━━━━━━━━╾─╮
@@ -209,6 +211,9 @@ module.exports = {
 │ - Randomvideo
 │ - Tik
 │ - Tiksearch
+│ - Reels
+│ - Playlist
+│ - Autolink
 ╰─━━━━━━━━━╾─╯
 
 ╭─╼━━━━━━━━╾─╮
