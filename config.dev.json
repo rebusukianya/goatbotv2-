@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "",
-    "password": "",
+    "email": "61571834700032",
+    "password": "anya2580@",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -12,16 +12,16 @@
   "antiInbox": false,
   "language": "en",
   "notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-  "nickNameBot": "𝙼𝙰𝙾𝚁𝙸 [ - ]",
-  "prefix": "-",
+  "nickNameBot": "ANYA",
+  "prefix": "/",
   "adminOnly": {
     "enable": false,
     "ignoreCommand": []
   },
-  "adminBot": ["61555814951548"],
+  "adminBot": ["100051869042398"],
   "whiteListMode": {
     "enable": false,
-    "whiteListIds": ["61555814951548"],
+    "whiteListIds": ["100051869042398"],
     "notes": "if you enable this feature, only the ids in the whiteListIds list can use the bot"
   },
   "whiteListModeThread": {
